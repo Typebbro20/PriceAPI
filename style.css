@@ -1,0 +1,126 @@
+html {
+    background-image: linear-gradient( #1C2541, #3A506B, #360A14);
+    background-size: 100%;
+    font-family: Rajdhani;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+    -webkit-perspective: 1px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    margin: 1rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 43%;
+}
+
+h1.jumbo {
+    color: #8E6AC8;
+    font-size: 7rem;
+    font-style: oblique;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 8rem;
+}
+
+.title {
+    background-image: radial-gradient(circle, #1C2541, #1C2541, #A60067, #360A14, #360A14);
+    position: fixed;
+    overflow: hidden;
+    position: relative;
+    height: 10%;
+    text-align: center;
+    font-style: inherit;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+div.parallax {
+    max-resolution: 30rem;
+    height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+div.parallax:after {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    content: "";
+    transform: translateZ(-2px) scale(1);
+    -webkit-transform: translateZ(-1px) scale(1);
+}
+
+div.content-outer {
+    background-image: radial-gradient(circle, #0B132B, #A60067, #360A14, #0B132B, #1C2541, #3A506B, #A60067, #360A14, #1C2541, #1C2541, #3A506B, #A60067, #3A506B, #360A14, #360A14, #0B132B, #0B132B);
+    width: 98%;
+    background-color: #3A506B;
+    perspective: 2px;
+    -webkit-perspective: 2px;
+}
+
+h1 {
+    font-style: oblique;
+    color: #8E6AC8;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+ul .list-group-item li {
+    color: #C6EBBE;
+    margin: 1rem;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.miner-fee-list li {
+    color: #A63446;
+    font-weight: bold;
+}
+
+.miner-fee-list {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.list-group-item {
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.content-inner div {
+    background-color: #3A506B;
+    border: 1rem solid #3A506B;
+    padding: 3rem 1rem;
+}
+
+div .card-body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0.25rem solid #A60067;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #0B132B;
+}

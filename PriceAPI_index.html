@@ -1,0 +1,181 @@
+<!DOCTYPE html <!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+<![endif]-->
+      <!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+      <!--[if IE 8]>
+<html class="no-js lt-ie9">
+<![endif]-->
+      <!--[if gt IE 8]>
+<html class="no-js">
+<!<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="JAVASCRIPT" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <h1 class="jumbo">Liquid Merchant Price API</h1>
+    <img src="C://PriceAPI/logo_3.png">
+    <div class="parallax">
+        <div class="content-outer">
+            <div class="content-inner">
+
+                <div class="title">
+                    <p>
+                        A fun price-tracking API pegged with useful info about each coin.
+                    </p>
+                    <p>
+                        Please feel free to recommend a coin to add to the list at any time. E n j o y .
+                    </p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <h1>
+                            BITCOIN (BTC)
+                        </h1>
+                        <ul>
+                            <li class="list-group-item" id="bitcoinPriceList">
+                                Bitcoin is a peer-to-peer online currency, meaning that all transactions happen directly between equal, independent network participants, without the need for any intermediary to permit or facilitate them. Bitcoin was created, according to Nakamoto’s
+                                own words, to allow “online payments to be sent directly from one party to another without going through a financial institution.”
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h1>
+                            LITECOIN (LTC)
+                        </h1>
+                        <ul>
+                            <li class="list-group-item " id="litecoinPriceList">
+                                Litecoin (LTC) is a cryptocurrency that was designed to provide fast, secure and low-cost payments by leveraging the unique properties of blockchain technology. Litecoin transactions are typically confirmed in just minutes, and transaction fees are nearly
+                                negligible. This makes it an attractive alternative to Bitcoin in developing countries, where transaction fees may be the deciding factor on which cryptocurrency to support.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h1>
+                            ETHEREUM (ETH)
+                        </h1>
+                        <ul>
+                            <li class="list-group-item" id="etherPriceList">
+                                Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts. Ethereum’s own purported
+                                goal is to become a global platform for decentralized applications, allowing users from all over the world to write and run software that is resistant to censorship, downtime and fraud.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1>
+                                DASH
+                            </h1>
+                            <ul>
+                                </li>
+                                <li class="list-group-item" id="dashPriceList">
+                                    DASH is an open-source blockchain and cryptocurrency focused on offering a fast, cheap global payments network that is decentralized in nature. According to the project's white paper, Dash seeks to improve upon Bitcoin (BTC) by providing stronger privacy
+                                    and faster transactions.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1>ZCash</h1>
+                            <ul>
+                                <li class="list-group-item" id="zecPriceList">
+                                    ZCash is a decentralized cryptocurrency focused on privacy and anonymity. It uses the zk-SNARK zero-knowledge proof technology that allows nodes on the network to verify transactions without revealing any sensitive information about those transactions.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1>
+                                EOS
+                            </h1>
+
+                            <ul>
+                                <li class="list-group-item" id="eosPriceList">
+                                    EOS is a platform that’s designed to allow developers to build decentralized apps (otherwise known as DApps for short.) The project’s goal is relatively simple: to make it as straightforward as possible for programmers to embrace blockchain technology
+                                    — and ensure that the network is easier to use than rivals. As a result, tools and a range of educational resources are provided to support developers who want to build functional apps quickly.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1>
+                                COSMOS (ATOM)
+                            </h1>
+                            <ul>
+                                <li class="list-group-item" id="cosmosPriceList">
+                                    The COSMOS Project includes making blockchain technology less complex and difficult for developers thanks to a modular framework that demystifies decentralized apps. Last but not least, an Interblockchain Communication protocol makes it easier for blockchain
+                                    networks to communicate with each other — preventing fragmentation in the industry.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1>
+                                STELLAR (XLM)
+                            </h1>
+                            <ul>
+                                <li class="list-group-item" id="stellarPriceList">
+                                    Stellar is an open network that allows money to be moved and stored. When it was released in July 2014, one of its goals was boosting financial inclusion by reaching the world’s unbanked — but soon afterwards, its priorities shifted to helping financial
+                                    firms connect with one another through blockchain technology. The network’s native token, lumens, serves as a bridge that makes it less expensive to trade assets across borders. All of this aims to challenge existing
+                                    payment providers, who often charge high fees for a similar service.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1>
+                                VECHAIN (VET)
+                            </h1>
+                            <ul>
+                                <li class="list-group-item" id="vetPriceList">
+                                    VeChain (VET) is a blockchain-powered supply chain platform that aims to use distributed governance and Internet of Things (IoT) technology to create an ecosystem which solves some of the major problems with supply chain management. The platform uses
+                                    two in-house tokens, VET and VTHO, to manage and create value based on its VeChainThor public blockchain. The idea is to boost the efficiency, traceability and transparency of supply chains while reducing costs and
+                                    placing more control in the hands of individual users.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js " async defer></script>
+</body>
+
+</html>
